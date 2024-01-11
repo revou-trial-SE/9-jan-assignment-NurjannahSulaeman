@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <style>
+        .mobile{
+            display: none;
+        }
+
+        .container {
+            margin: 100px;
+        }
+        @media only screen and (max-width: 650px) {
+            body {
+                background-color: lightblue;
+            }
+            .mobile{
+                display: block;
+            }
+
+            .desktop {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body> 
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Folder</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- content -->
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">Tugas Trial Full Stack Software Enginering RevoU</h1>
+            <p class="lead">Ayo ke Tempat Pemungutan Suara (TPS) Tanggal 14 Februari 2024.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" fdprocessedid="kkmgy">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="eb503b">Default</button>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="pemilu.png" alt="" width="720">
+          </div>
+        </div>
+      </div>
+
+      <!-- content card -->
+
+      <img src="." class="img-thumbnail" alt="...">
+
+      <div class="container">
+        <div class="row desktop">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./IMG_20240111_174405.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Terima Kehadiran Pemilih</h5>
+                  <p class="card-text">Masuk ke TPS sesuai undangan yang wajib dibawa untuk memilih, penerimaan undangan kehadiran pemilih, menuju kursi pemilih .</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./IMG_20240111_174706.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bilik Suara</h5>
+                  <p class="card-text">Setelah dipanggil nama pemilih, Anda diberi surat suara sebanyak 5 buah, mencoblos di Bilik Suara.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="./IMG_20240111_174954.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Kotak Suara</h5>
+                  <p class="card-text">Masukkan ke kotak suara sesuai warnanya, pencelupan jari ke tinta yang disediakan, menuju pintu keluar TPS.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        </div>
+
+        <div class="mobile">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      <img src="export1704442902345.png" alt=""> 
+      <footer>Copyright &copy; 2024 website Nurjannah_Sulaeman</footer> 
+    </body>
+</html>
